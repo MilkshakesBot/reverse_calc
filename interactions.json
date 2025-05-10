@@ -1,0 +1,180 @@
+{
+  "A": {
+    "replacements": {
+      "Eu": "La",
+      "Fo": "Cy",
+      "Gi": "Tp",
+      "Mu": "At",
+      "Sl": "Mu",
+      "Sn": "Pa",
+      "To": "Eu"
+    }
+  },
+  "B": {
+    "replacements": {
+      "At": "Mu",
+      "Ca": "Be",
+      "Cy": "Fo",
+      "El": "Re",
+      "Eu": "To",
+      "Fc": "Ca",
+      "La": "Eu",
+      "Mu": "Sl",
+      "Sh": "Pa",
+      "Tp": "Gi"
+    }
+  },
+  "C": {
+    "replacements": {
+      "Di": "Gl",
+      "El": "Di",
+      "En": "Eu",
+      "Eu": "Sp",
+      "Gi": "Sm",
+      "Je": "Sn",
+      "La": "Fo",
+      "Mu": "Se",
+      "Pa": "Ca",
+      "Sh": "Fc",
+      "Sn": "Tt"
+    }
+  },
+  "D": {
+    "replacements": {
+      "Ag": "Sl",
+      "Ba": "Sn",
+      "Cd": "Ex",
+      "Fc": "Eu",
+      "Je": "Gi",
+      "Mu": "Ca",
+      "Sh": "En"
+    }
+  },
+  "E": {
+    "replacements": {
+      "Di": "El",
+      "Eu": "En",
+      "Fc": "Sh",
+      "Fo": "La",
+      "Gl": "Di",
+      "Sc": "Ba",
+      "Se": "Mu",
+      "Sp": "Eu",
+      "Tt": "Sn"
+    }
+  },
+  "F": {
+    "replacements": {
+      "Ca": "Ag",
+      "Cd": "Sn",
+      "Ex": "Se",
+      "Fc": "Je"
+    }
+  },
+  "G": {
+    "replacements": {
+      "En": "Mu",
+      "Eu": "Se",
+      "Fo": "To",
+      "Mu": "Sc",
+      "Pa": "Ag"
+    }
+  },
+  "H": {
+    "replacements": {
+      "Ca": "Sn",
+      "Cy": "En",
+      "Di": "Fc",
+      "En": "Tp",
+      "Fc": "Si",
+      "Lf": "Re",
+      "Pa": "Je",
+      "Sm": "Ag",
+      "To": "Sm"
+    }
+  },
+  "I": {
+    "replacements": {
+      "Ag": "Tt",
+      "At": "Eu",
+      "La": "Lf",
+      "Mu": "To",
+      "Sh": "Re",
+      "Sn": "Be"
+    }
+  },
+  "J": {
+    "replacements": {
+      "Ca": "Ba",
+      "Cd": "Gi",
+      "Eu": "Si",
+      "Fo": "Pa",
+      "Re": "Tp",
+      "To": "Sn"
+    }
+  },
+  "K": {
+    "replacements": {
+      "Ca": "Sl",
+      "El": "At",
+      "En": "Pa",
+      "Fc": "Gi",
+      "Fo": "Ca",
+      "Gl": "To",
+      "Mu": "Ag",
+      "Pa": "Ba",
+      "Sp": "Be",
+      "To": "Tt"
+    }
+  },
+  "L": {
+    "replacements": {
+      "At": "Sn",
+      "Di": "To",
+      "Eu": "Be",
+      "La": "Ca",
+      "Sh": "Gi"
+    }
+  },
+  "M": {
+    "replacements": {
+      "Ag": "Ca",
+      "Gi": "Re",
+      "Si": "En",
+      "Tp": "El"
+    }
+  },
+  "N": {
+    "replacements": {
+      "At": "La",
+      "Ca": "Gl",
+      "En": "Cy",
+      "Fc": "Di",
+      "Je": "Pa",
+      "Si": "Fc",
+      "Sh": "El",
+      "Sl": "To",
+      "Sn": "Ca",
+      "Tp": "En"
+    }
+  },
+  "O": {
+    "replacements": {
+      "Ex": "Eu",
+      "Fo": "En",
+      "Gl": "Re",
+      "Lf": "El",
+      "Se": "Gi"
+    }
+  },
+  "P": {
+    "replacements": {
+      "Cy": "Gl",
+      "El": "Eu",
+      "Eu": "Zo",
+      "La": "Cd",
+      "Mu": "Tt",
+      "Sh": "Mu"
+    }
+  }
+}

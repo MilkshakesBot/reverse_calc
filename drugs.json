@@ -1,0 +1,38 @@
+[
+  {
+    "Product": "OH",
+    "Full Name": "OG Kush",
+    "Effect": "Ca",
+    "Base Price": 35
+  },
+  {
+    "Product": "SL",
+    "Full Name": "Sour Diesel",
+    "Effect": "Re",
+    "Base Price": 35
+  },
+  {
+    "Product": "GK",
+    "Full Name": "Green Crack",
+    "Effect": "En",
+    "Base Price": 35
+  },
+  {
+    "Product": "GE",
+    "Full Name": "Granddaddy Purple",
+    "Effect": "Se",
+    "Base Price": 35
+  },
+  {
+    "Product": "MH",
+    "Full Name": "Meth",
+    "Effect": "None",
+    "Base Price": 70
+  },
+  {
+    "Product": "CE",
+    "Full Name": "Cocaine",
+    "Effect": "None",
+    "Base Price": 150
+  }
+]

@@ -1,3 +1,9 @@
+# Work in progress
+workinprogress/*
+
+# Drug Output Files
+drug_outputs_csv/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

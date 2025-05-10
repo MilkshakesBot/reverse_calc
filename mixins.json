@@ -1,0 +1,98 @@
+[
+  {
+    "Ingredient": "A",
+    "Full Name": "Cuke",
+    "Effect": "En",
+    "Price": 2
+  },
+  {
+    "Ingredient": "B",
+    "Full Name": "Flu Medicine",
+    "Effect": "Se",
+    "Price": 5
+  },
+  {
+    "Ingredient": "C",
+    "Full Name": "Gasoline",
+    "Effect": "To",
+    "Price": 5
+  },
+  {
+    "Ingredient": "D",
+    "Full Name": "Donut",
+    "Effect": "Cd",
+    "Price": 3
+  },
+  {
+    "Ingredient": "E",
+    "Full Name": "Energy Drink",
+    "Effect": "At",
+    "Price": 6
+  },
+  {
+    "Ingredient": "F",
+    "Full Name": "Mouth Wash",
+    "Effect": "Ba",
+    "Price": 4
+  },
+  {
+    "Ingredient": "G",
+    "Full Name": "Motor Oil",
+    "Effect": "Sl",
+    "Price": 6
+  },
+  {
+    "Ingredient": "H",
+    "Full Name": "Banana",
+    "Effect": "Gi",
+    "Price": 2
+  },
+  {
+    "Ingredient": "I",
+    "Full Name": "Chili",
+    "Effect": "Sp",
+    "Price": 7
+  },
+  {
+    "Ingredient": "J",
+    "Full Name": "Iodine",
+    "Effect": "Je",
+    "Price": 8
+  },
+  {
+    "Ingredient": "K",
+    "Full Name": "Paracetamol",
+    "Effect": "Sn",
+    "Price": 3
+  },
+  {
+    "Ingredient": "L",
+    "Full Name": "Viagor",
+    "Effect": "Tt",
+    "Price": 4
+  },
+  {
+    "Ingredient": "M",
+    "Full Name": "Horse Semen",
+    "Effect": "Lf",
+    "Price": 9
+  },
+  {
+    "Ingredient": "N",
+    "Full Name": "Mega Bean",
+    "Effect": "Fo",
+    "Price": 7
+  },
+  {
+    "Ingredient": "O",
+    "Full Name": "Addy",
+    "Effect": "Tp",
+    "Price": 9
+  },
+  {
+    "Ingredient": "P",
+    "Full Name": "Battery",
+    "Effect": "Be",
+    "Price": 8
+  }
+]
