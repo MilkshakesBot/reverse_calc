@@ -114,13 +114,16 @@ def process_permutation_chunk(drug, chunk):
         profit = final_price - total_mixin_cost  # Net profit calculation
 
         # Append a row with data about the combination
-        rows.append(["".join(mixin_names),
-                     "".join(sorted(current_effects)),
-                     final_price, profit, total_mixin_cost])
+        rows.append([
+            "".join(sorted(mixin_names)),                  # No commas, sorted
+            # No commas, deduplicated and sorted
+            "".join(sorted(set(current_effects))),
+            final_price,
+            profit,
+            total_mixin_cost
+        ])
 
     return rows
-
-# Process all mixin permutations for a single drug and write output to CSV files
 
 
 def process_drug_parallel(drug):
