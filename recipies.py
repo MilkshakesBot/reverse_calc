@@ -7,7 +7,7 @@ import time
 from datetime import datetime
 
 # Configuration constants
-MAX_MIXIN_LENGTH = 8  # Maximum number of mixins to combine
+MAX_MIXIN_LENGTH = 4  # Maximum number of mixins to combine
 CHUNK_SIZE = 500000  # Number of permutations per processing chunk
 OUTPUT_DIR = "drug_outputs_csv"  # Output directory for CSV files
 # Create the output directory if it doesn't exist
@@ -78,8 +78,7 @@ def generate_permutation_chunks():
 
 def process_permutation_chunk(drug, chunk):
     # Parse base effects and base price from the drug
-    base_effects = set(drug["Effect"].split(
-        ", ")) if drug["Effect"] != "None" else set()
+    base_effects = set(drug["Effect"]) if drug["Effect"] != "None" else set()
     base_price = drug["Base Price"]
     rows = []
 
@@ -91,8 +90,8 @@ def process_permutation_chunk(drug, chunk):
 
         for mixin_name, mixin_effect in perm:
             mixin_names.append(mixin_name)
-            current_effects.add(mixin_effect)
             current_effects = apply_replacements(current_effects, mixin_name)
+            current_effects.add(mixin_effect)
 
             # Add the price of the current mixin to the total
             mixin_price = next(m["Price"]
@@ -104,7 +103,8 @@ def process_permutation_chunk(drug, chunk):
 
         # Calculate the total multiplier from all current effects
         for effect in current_effects:
-            multiplier = effect_multipliers.get(effect, 0)
+            multiplier = effect_multipliers.get(
+                effect, {}).get("Multiplier", 0)
             if multiplier > 0:
                 total_multiplier += multiplier
                 multipliers_details.append((effect, multiplier))

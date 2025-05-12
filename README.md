@@ -5,19 +5,20 @@ A Python tool that programmatically generates all possible combinations of recip
 ## 📜 Project Status
 
 - **Current Status:** The tool is functional, but not yet optimized for performance.
+  - The recipe generation and deduplication processes are split into two separate scripts: `recipies.py` and `dedupe.py`.
 - **Known Issues:**
 
-  - The code does not currently deduplicate recipes that result in the same effects.
+  - The deduplication script (`dedupe.py`) is not fully functional and may not work as intended.
+    - However for testing purposes, it can be run on a small set of ingredients to verify its functionality.
+  - The code does not currently deduplicate recipes that result in the same effects all in one script.
   - The script may take a long time to run, especially with large ingredient sets.
   - The tool consumes significant memory and CPU resources.
 
 - **Planned Improvements:**
 
-  - Implement deduplication of recipes with the same effect.
-
-    - Retain only the most profitable and/or cost-effective version of duplicate-effect recipes.
-
   - Optimize the code to reduce runtime and memory usage.
+  - Merge the two scripts into a single script for better usability.
+    - Handle deduplication as new recipes are generated to avoid excessive file sizes.
 
 ## 🔧 Features
 
@@ -36,14 +37,18 @@ A Python tool that programmatically generates all possible combinations of recip
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/schedule1-reverse-generator.git
-cd schedule1-reverse-generator
+git clone https://github.com/MilkshakesBot/reverse_calc.git
+cd reverse_calc
 ```
 
 2. Run the script:
 
 ```bash
-python generate_recipes.py
+python recipies.py
+```
+
+```bash
+python dedupe.py
 ```
 
 3. Find the output files in the project directory (e.g., `CE_part1.csv`, `MH_part1.csv`).
@@ -58,7 +63,7 @@ The tool generates files typically named:
 
 Each line represents a unique recipe configuration based on the Schedule 1 data.
 
-> **Note:** With 8 ingredients, the output can exceed **100 GB** in size and generate over **1 million recipes** before deduplication. Adding more ingredients causes exponential growth in file size and combination count. Ensure sufficient disk space and memory capacity.
+> **Note:** With 8 ingredients, the output can exceed **100 GB** in size and generate over **500** differnt csv files per drug before deduplication. Each file has 1 million recipies. There are a total of 3 billion recipies with 8 ingredients. Adding more ingredients causes exponential growth in file size and combination count. Ensure sufficient disk space and memory capacity.
 
 ## 📄 License
 

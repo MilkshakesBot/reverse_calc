@@ -3,6 +3,7 @@ workinprogress/*
 
 # Drug Output Files
 drug_outputs_csv/*
+drug_deduped_csv/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
